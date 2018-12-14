@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-jk",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "The lint setup and config that I use in my projects.",
   "repository": "github:justinkalland/eslint-config-jk",
   "homepage": "https://github.com/justinkalland/eslint-config-jk#readme",
