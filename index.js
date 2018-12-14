@@ -1,0 +1,7 @@
+module.exports = {
+  "extends": "standard",
+  "rules": {
+    "no-var": "error",
+    "prefer-const": "error"
+  }
+}
