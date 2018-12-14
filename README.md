@@ -8,5 +8,5 @@ npm i eslint-config-jk --save-dev
 ```
 - Installs eslint
 - Installs the StandardJS eslint configs / plugins
-- Adds custom rules I like
+- Adds [custom rules I like](https://github.com/justinkalland/eslint-config-jk/blob/master/index.js)
 - Automatically creates `.eslintrc.json` (if it doesn't exist)
