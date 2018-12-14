@@ -11,7 +11,7 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "test": "mocha tests",
+    "test": "nyc mocha tests",
     "postinstall": "scripts/postInstall.js",
     "lint": "eslint ."
   },
@@ -25,6 +25,7 @@
   },
   "devDependencies": {
     "chai": "^4.2.0",
-    "mocha": "^5.2.0"
+    "mocha": "^5.2.0",
+    "nyc": "^13.1.0"
   }
 }
