@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-var fs = require('fs')
+const fs = require('fs')
 
 const cwd = process.env.INIT_CWD || process.cwd()
 

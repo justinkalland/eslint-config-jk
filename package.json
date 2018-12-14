@@ -11,8 +11,9 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "scripts/postInstall.js"
+    "test": "mocha tests",
+    "postinstall": "scripts/postInstall.js",
+    "lint": "eslint ."
   },
   "dependencies": {
     "eslint": "^5.10.0",
@@ -21,5 +22,9 @@
     "eslint-plugin-node": "^8.0.0",
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-standard": "^4.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
   }
 }
