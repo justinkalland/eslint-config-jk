@@ -1,6 +1,8 @@
 # eslint-config-jk
 The lint setup and config that I use in my projects (based on StandardJS).
 
+[![JavaScript Style Guide](https://cdn.rawgit.com/standard/standard/master/badge.svg)](https://github.com/standard/standard)
+
 ## Setup
 One package sets up everything needed for linting:
 ```
