@@ -1,7 +1,11 @@
 module.exports = {
   'extends': 'standard',
+  'plugins': [
+    'no-only-tests'
+  ],
   'rules': {
     'no-var': 'error',
-    'prefer-const': 'error'
+    'prefer-const': 'error',
+    'no-only-tests/no-only-tests': 'error'
   }
 }
