@@ -9,7 +9,7 @@ module.exports = {
     'no-only-tests/no-only-tests': 'error'
   },
   overrides: [{
-    files: [ '*.test.js' ],
+    files: [ 'tests/**', '*.test.js' ],
     env: { mocha: true }
   }]
 }
