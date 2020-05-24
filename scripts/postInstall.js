@@ -36,6 +36,11 @@ if (packageJson.eslintConfig === undefined) {
   }
 }
 
+if (packageJson.scripts.lint === undefined) {
+  packageChanged = true
+  packageJson.scripts.lint = 'eslint .'
+}
+
 if (packageChanged) {
   const data = JSON.stringify(packageJson, null, 2) + '\n'
   fs.writeFileSync(packageFile, data)

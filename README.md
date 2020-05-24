@@ -16,3 +16,4 @@ npm i eslint-config-jk --save-dev
 - [Adds](https://github.com/justinkalland/eslint-config-jk/blob/master/scripts/postInstall.js) to `package.json` (if file exsists)
   - Eslint config option
   - Husky hook to lint on pre-commit
+  - package script `lint` (`npm run lint`)
