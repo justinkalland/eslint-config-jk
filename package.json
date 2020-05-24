@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-jk",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "Node.js lint setup and config that I use in my projects (based on StandardJS).",
   "repository": "github:justinkalland/eslint-config-jk",
   "homepage": "https://github.com/justinkalland/eslint-config-jk#readme",
